@@ -1,0 +1,73 @@
+.loginPage {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 80px 0 140px;
+    height: 600px;
+    text-align: center;
+    background: #79a3b1;
+  }
+
+  h1{
+    font-family: Chalkduster;
+    font-size: 60px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-put;
+    font-weight: 200;
+    color: #d3e0ea;
+  }
+  
+  .login-form {
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
+  }
+  
+.loginPage input{
+    display: block;
+    border:1px solid #eee;
+    outline: 0;
+    width: 250px;
+    height: 50px;
+    border-radius: 3px;
+    padding: 10px 5px 15px;
+    margin: 0 auto 20px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    transition-duration: 0.25s;
+    font-weight: 300;
+    background-color: rgba(40, 160, 230, 0.1);
+    }
+  
+.loginPage input:hover{
+    background-color: rgb(245, 247, 249);
+  }
+  
+.loginPage input:focus{
+    background-color: white;
+    width: 300px;
+  }
+  
+.login-button{
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 18px;
+    border-radius: 3px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s;
+    margin-top: 10px;
+    font-weight: bold;
+    }
+
+  .login-button:hover {
+    background-color: rgb(245, 247, 249);
+  }
+  
+  .loginPage p {
+    margin-top: 10px;
+  }
