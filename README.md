@@ -54,8 +54,8 @@ Below are the screenshot for preview the app
 
 
 
-## Language
+## framework
 -  Fornt End: React JS
--  Back End: Java
+-  Back End: Springboot
 
 
