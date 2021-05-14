@@ -54,7 +54,7 @@ Below are the screenshot for preview the app
 
 
 
-## framework
+## Framework
 -  Fornt End: React JS
 -  Back End: Springboot
 
