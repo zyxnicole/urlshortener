@@ -3,13 +3,13 @@ function ErrorMessage({ onChange }) {
 
   return (
     <div id="status">
-      <div class="row">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
+      <div className="row">
+        <div className="panel panel-primary">
+          <div className="panel-heading">
           </div>
         </div>
-        <div class="error-notice">
-          <div class="oaerror danger">
+        <div className="error-notice">
+          <div className="oaerror danger">
             <strong>Error</strong> - {errorMessage}
           </div>
         </div>
