@@ -3,8 +3,8 @@ import inLogo from '../img/inLogo.png';
 const ShowAll = function ({ onShow }) {
   return (
     <div id='show-all' >
-      <div class="navigation">
-        <div class="button">
+      <div className="navigation">
+        <div className="button">
           <div className="show-all" onClick={onShow} >SHOW ALL URL </div>
         </div>
       </div>
