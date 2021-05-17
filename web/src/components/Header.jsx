@@ -4,7 +4,7 @@ function Header({ }) {
   return (
     <div className='header'>
       <header>
-        <div class="overlay">
+        <div className="overlay">
           <h1>URL Shortener</h1>
         </div>
       </header>
