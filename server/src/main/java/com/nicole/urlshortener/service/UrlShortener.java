@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
+@Service
 public class UrlShortener {
 
   private static final String SHORT_URL_PREFIX = "http://applau.se/";
