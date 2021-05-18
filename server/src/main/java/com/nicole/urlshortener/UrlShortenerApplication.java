@@ -14,24 +14,4 @@ public class UrlShortenerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(UrlShortenerApplication.class, args);
 	}
-
-	@Bean
-	Sessions getSessions() {
-		return new Sessions();
-	}
-
-	@Bean
-	LruCache getLruCache() {
-		return new LruCache();
-	}
-
-	@Bean
-	ShortUrlIterator getShortUrlIterator() {
-		return new ShortUrlIterator();
-	}
-
-	@Bean
-	UrlShortener getUrlShortener(ShortUrlIterator shortUrlIterator, LruCache lruCache) {
-		return new UrlShortener(shortUrlIterator, lruCache);
-	}
 }
