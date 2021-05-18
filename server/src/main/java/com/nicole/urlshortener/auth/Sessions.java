@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+@Component
 public class Sessions {
 
   private static final Map<String, String> ADMINS = initAdmin();
