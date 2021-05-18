@@ -1,5 +1,6 @@
 package com.nicole.urlshortener.service;
 
+@Component
 public class ShortUrlIterator {
   private boolean hasNext = true;
   private char[] next = {'0', '0'};
