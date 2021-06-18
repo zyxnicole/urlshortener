@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class UrlShortener {
 
-  private static final String SHORT_URL_PREFIX = "http://applau.se/";
+  private static final String SHORT_URL_PREFIX = "http://nicole.z/";
 
   private final ShortUrlIterator shortUrlIterator;
   private final LruCache lruCache;
