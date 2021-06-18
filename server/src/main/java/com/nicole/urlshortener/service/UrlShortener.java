@@ -3,12 +3,14 @@ package com.nicole.urlshortener.service;
 import com.nicole.urlshortener.cache.LruCache;
 import com.nicole.urlshortener.cache.UrlSnapshot;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class UrlShortener {
 
-  private static final String SHORT_URL_PREFIX = "http://applau.se/";
+  private static final String SHORT_URL_PREFIX = "http://nicole.z/";
 
   private final ShortUrlIterator shortUrlIterator;
   private final LruCache lruCache;

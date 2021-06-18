@@ -15,23 +15,23 @@ public class UrlShortenerApplication {
 		SpringApplication.run(UrlShortenerApplication.class, args);
 	}
 
-	@Bean
-	Sessions getSessions() {
-		return new Sessions();
-	}
+//	@Bean
+//	Sessions getSessions() {
+//		return new Sessions();
+//	}
 
-	@Bean
-	LruCache getLruCache() {
-		return new LruCache();
-	}
+//	@Bean
+//	LruCache getLruCache() {
+//		return new LruCache();
+//	}
 
-	@Bean
-	ShortUrlIterator getShortUrlIterator() {
-		return new ShortUrlIterator();
-	}
+//	@Bean
+//	ShortUrlIterator getShortUrlIterator() {
+//		return new ShortUrlIterator();
+//	}
 
-	@Bean
-	UrlShortener getUrlShortener(ShortUrlIterator shortUrlIterator, LruCache lruCache) {
-		return new UrlShortener(shortUrlIterator, lruCache);
-	}
+//	@Bean
+//	UrlShortener getUrlShortener(ShortUrlIterator shortUrlIterator, LruCache lruCache) {
+//		return new UrlShortener(shortUrlIterator, lruCache);
+//	}
 }

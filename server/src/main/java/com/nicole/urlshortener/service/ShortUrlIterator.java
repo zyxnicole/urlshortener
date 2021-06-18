@@ -1,5 +1,8 @@
 package com.nicole.urlshortener.service;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ShortUrlIterator {
   private boolean hasNext = true;
   private char[] next = {'0', '0'};

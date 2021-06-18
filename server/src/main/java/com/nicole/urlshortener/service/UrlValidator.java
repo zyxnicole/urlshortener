@@ -4,7 +4,7 @@ public class UrlValidator {
 
     private static final String LONG_URL_PATTERN =
             "https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)";
-    private static final String SHORT_URL_PATTERN = "http:\\/\\/applau.se\\/[a-zA-Z0-9]{2}";
+    private static final String SHORT_URL_PATTERN = "http:\\/\\/nicole.z\\/[a-zA-Z0-9]{2}";
 
     public static boolean validateLongUrl(String longUrl) {
         return isUrlAndPatternMatch(longUrl, LONG_URL_PATTERN);
